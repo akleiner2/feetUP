@@ -1,0 +1,25 @@
+{
+  "name": "feetUp",
+  "version": "0.0.0",
+  "description": "A platform to donate to homeless poeple",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/josneville/feetup"
+  },
+  "author": "Neville Jos, Vishal Disawar, and Allen Kleiner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josneville/feetup/issues"
+  },
+  "homepage": "https://github.com/josneville/feetup",
+  "dependencies" : {
+    "express"    : "~4.3.2",
+    "mongoose"   : "3.8.x",
+    "morgan"	 : "*",
+    "body-parser": "*"
+	}
+}
